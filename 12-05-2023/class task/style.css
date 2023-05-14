@@ -1,0 +1,117 @@
+*{
+	margin:none;
+	text-decoration:none;
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+.text-center{
+	text-align:center;
+}
+.white{
+	color:white;
+}
+.bg-black{
+	background:black;
+}
+.p-10{
+	padding:10px;
+}
+.row{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.hover a:hover, select:hover{
+	color:#196ae5;
+	
+}
+ul{
+	list-style-type:none;
+}
+.d-flex{
+	display:flex;
+	
+	gap:0px 69px;
+}
+.hover a{
+	color:black;
+}
+.img1{
+width:9%;
+}
+.free-edit{
+	border:none;
+	width:42%;
+	
+}
+.blue{
+	color:#196ae5;
+}
+.red{
+	color:red;
+}
+.mt-50{
+	margin-top:50px;
+}
+.fs-80{
+	font-size: 80px;
+}
+.fs-20{
+	font-size:20px;
+}
+.w-80{
+	width:80%;
+}
+h1 ,h2 ,h3 ,h4, h5, h6, p {
+	margin-bottom:10px;
+}
+.button:hover{
+	background:grey;
+	border-radius:8px;
+}
+.fs-60{
+	font-size: 60px;
+}
+.explore:hover{
+	background:#4788ea;
+}
+.explore{
+	background:#196ae5;
+	border-radius:8px;
+	padding: 10px 50px;
+	
+}
+.mb-80{
+	margin-bottom: 80px;
+}
+.fs-40{
+	font-size: 40px;
+}
+.w-55{
+	width:55%;
+}
+.w-25{
+	 width: 25px;
+}
+.black {
+	color:black;
+}
+
+.caraosel{
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+.slide{
+	min-width: 1190px;
+}
+.carausel-control a:focus{
+	border-bottom: 2px solid red;
+}
+
+#red{
+		color: red;
+}

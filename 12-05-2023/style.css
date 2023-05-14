@@ -1,0 +1,60 @@
+/* Simple Selector */ 
+
+.content{
+	background-color: blue;
+}
+
+/* Child Selector */
+.content > h1, h2 > {
+	color: white;
+}
+
+/* Disendent Selector */
+.content h3{
+	color: yellow;
+}
+
+/* Sibling Selector */
+.parent > h4 ~ p{
+	color: red;
+}
+
+/* addjustend  Selector */
+.content3 + .parent{
+	background-color: lightpink;
+}
+
+/* Psuedo Selector 
+
+:hover
+:focus
+:active
+:visted
+
+::nth-child() even/odd
+::first-child
+::last-Child
+
+::after
+::before
+
+*/
+
+.parent:hover{
+	background-color:black;
+	color: white;
+}
+
+button:focus{
+	background-color:black;
+	color: white;
+}
+
+
+a:visited{
+	color: green;
+}
+
+a:active{
+	color: red;
+}
